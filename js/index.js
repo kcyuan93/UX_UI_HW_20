@@ -1,8 +1,28 @@
 /*Hamburger Menu*/
-$(".icons").on("click", function(){
-  $("#dropDown").slideToggle();
-  // $(".toggle").toggleClass('show hide');
-});
+// $(".icons").on("click", function(){
+//   $("#dropDown").slideToggle();
+//   // $(".toggle").toggleClass('show hide');
+// });
+
+$( document ).ready(function() {
+
+  $( "#cross" ).hide();
+  $( "#dropDown" ).hide();
+  $( "#hamburger" ).click(function() {
+  $( "#dropDown" ).slideToggle( "slow", function() {
+  $( "#hamburger" ).hide();
+  $( "#cross" ).show();
+  });
+  });
+  
+  $( "#cross" ).click(function() {
+  $( "#dropDown" ).slideToggle( "slow", function() {
+  $( "#cross" ).hide();
+  $( "#hamburger" ).show();
+  });
+  });
+  
+  });
 
 /*skill1*/
 $("#skill1").on("mouseenter", function(){
