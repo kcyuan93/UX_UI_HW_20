@@ -433,3 +433,23 @@
     opacity: 1;
     visibility: visible;
   }
+
+  /* Case study page */
+  .part1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 110px;
+    margin-bottom: 5%;
+}
+
+.case1Description {
+    width: 60%;
+}
+
+.case1Pic1 {
+    width: 100%;
+    height: auto;
+}
