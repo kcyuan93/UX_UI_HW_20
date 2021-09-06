@@ -10,7 +10,7 @@
     font-size: 21pt;
     align-items: center;
   }
-  
+
   .icons {
     display: flex;
     justify-content: flex-end;
@@ -85,6 +85,7 @@
     flex-direction: row;
     align-items:baseline;
     margin-left: 9%;
+    margin-right: 9%;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -229,13 +230,33 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 15pt;
+  }
+
+#logoImg {
+    
+    height: 15pt;
+    margin-right: 1%;
+  }
+
+#copyRight {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
 @media only screen and (max-width: 700px) {
     .footer {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
-    margin-left: 9%;
-    margin-right: 9%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 100px;
     justify-content:space-between;
     }
@@ -248,6 +269,57 @@
         font-family: 'Ubuntu', sans-serif;
         margin-right: 9%;
     }
+}
+
+/* width */
+
+@media only screen and (max-width: 700px) {
+    .work {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 110px;
+        margin-bottom: 100px;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        align-items:baseline;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #navBar {
+        display: flex;
+        flex-direction: row;
+        margin: 0px 2%;
+      }
+
+      .location {
+        display: flex;
+        flex-direction: row;
+        align-items:baseline;
+        margin-left: 2%;
+        margin-top: 35px;
+        margin-bottom: 0px;
+    }
+
+    .button {
+        margin-left: 2%;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        height: 40px;
+        width: 160px;
+        text-align: center;
+        font-size: 18pt;
+        font-family: 'Ubuntu', sans-serif;
+        cursor: pointer;
+    }
+
 }
 
 /* @media only screen and (max-width: 700px) {
