@@ -352,6 +352,18 @@
     letter-spacing: normal;
 }
 
+.button2 {
+    margin-left: 0%;
+    margin-top: 4%;
+    margin-bottom: 50px;
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    font-size: 18pt;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
 #profession {
     width: 58vh;
     height: auto;
